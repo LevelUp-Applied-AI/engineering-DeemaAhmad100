@@ -16,11 +16,12 @@ Steps to verify the changes:
 3. Run the project using the provided command.
 4. Confirm the expected behavior or output appears.
 
-## Checklist
-Before opening this PR, I confirm that:
 
-- [ ] The code works as expected
-- [ ] I tested the changes locally
+## Pre-PR Self Review Checklist
+Before opening a pull request, I verify the following:
+- [ ] The code does what the PR title describes
+- [ ] All tests pass successfully
+- [ ] Documentation and README are updated
+- [ ] The PR focuses on one logical change
 - [ ] No debug prints or temporary code remain
-- [ ] Documentation is updated if needed
-- [ ] The PR focuses on a single logical change
+- [ ] Code formatting and naming are consistent
